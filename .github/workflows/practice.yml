@@ -1,0 +1,12 @@
+name: "practicing ci/cd pipeline"
+on:
+    push:
+        branches:
+            - master
+            - main
+jobs:
+    hello-world:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "practicing ci/cd pipeline"
+              run:  echo "practicing ci/cd pipeline"
